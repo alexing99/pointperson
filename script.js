@@ -36,5 +36,5 @@ function calculateCC() {
   let serverCC = (PMCC - busserCC - bartenderCC - hostessCC) / numbServers;
 
   const results = document.querySelector(".results");
-  results.textContent = `Server CC Tips = $${serverCC}`;
+  results.textContent = `Server CC Tips = $${serverCC} \r\n Busser CC Tips = $${busserCC} \r\n Bartender CC Tips = $${bartenderCC} \r\n Hostess CC Tips = $${hostessCC}`;
 }
