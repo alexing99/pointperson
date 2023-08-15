@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONEY MONEY MONEY</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <form id="pointInputs">
+        <fieldset>
+            <legend>Put Numbers In</legend>
+            <label for="total-cc">Total CC's</label>
+            <input type="number" id="total-cc" name="total-cc" required></input>
+               
+            <label for="AM-cc">AM CC's</label>
+            <input type="number" id="AM-cc" name="AM-cc" required></input>
+
+            <label for="bar-cc">Bar CC's</label>
+            <input type="number" id="bar-cc" name="bar-cc" required></input>
+
+            <label for="cash">Cash Tips</label>
+            <input type="number" id="cash-tip" name="cash-tip" required></input>
+
+            <label for="numb-server"># of Servers</label>   
+            <input type="number" id="numb-server" name="numb-server" required></input>
+            
+            <label for="bartender">Bartender?</label>
+            <input type="checkbox" id="bartender" name="bartender" required></input>
+                
+            <label for="busser">Busser?</label>
+            <input type="checkbox" id="busser" name="busser" required></input>
+
+            <label for="hostess">Hostess?</label>
+            <input type="checkbox" id="hostess" name="hostess" required></input>
+            
+        </fieldset> 
+        <button type="button" id="subButt">Divvy</button>
+    </form>
+    <div class="results"></div>
+
+  </body>
+</html>
