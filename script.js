@@ -22,7 +22,8 @@ function calculateCC() {
   let PMCC = totalCC - AMCC - barCC - doorDash;
 
   if (lunch.checked) {
-    if (numbServers === 2) {
+    console.log(typeof numbServers);
+    if (numbServers == 2) {
       if (busserCheck.checked && hostCheck.checked) {
         hostRate = 0.15;
         busRate = 0.15;
@@ -37,7 +38,7 @@ function calculateCC() {
   }
 
   if (brunch.checked) {
-    if (numbServers === 4 || numbServers === 5) {
+    if (numbServers == 4 || numbServers == 5) {
       if (busserCheck.checked && hostCheck.checked) {
         hostRate = 0.1;
         busRate = 0.1;
